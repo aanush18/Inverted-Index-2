@@ -7,7 +7,7 @@ const path = require('path');
 const homeRouter = require('./api/routes/home');
 const Paragraph = require('./api/models/paragraph');
 const MONGODB_URL='mongodb+srv://1234:<password>@cluster0.d2nyn.mongodb.net/<dbname>?retryWrites=true&w=majority'
-//const MONGODB_URL = 'mongodb+srv://pprathameshmore:9420776721@cluster0-k8m6f.mongodb.net/test?retryWrites=true&w=majority';
+
 
 mongoose.connect(MONGODB_URL, {
     dbName: "1234",
